@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="init()">
+    <main>
+        <canvas onclick="draw(event)" width="780" height="510">
+        </canvas>
+        <div id="chestii">
+            <button type="button" onclick="clearThing()">clear</button>
+            <button type="button" onclick="drawmid()">drawmid</button>
+            <input type="number" max="100" min="1" value="1" id="d"></input>
+        </div>
+        <span id="text"></span>
+    </main>
+</body>
+</html>
